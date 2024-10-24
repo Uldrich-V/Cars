@@ -10,13 +10,12 @@ public class CarManager : MonoBehaviour
     public Text car1SpeedText;
     public Text car2SpeedText;
     public Text speedDifferenceText;
-    // Start is called before the first frame update
     void Start()
     {
 
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         car1SpeedText.text = "Car 1 Speed: " + Car1.GetSpeed().ToString("F2") + " km/h";
